@@ -20,6 +20,7 @@ main {
   border-radius: 0.6rem;
   box-shadow: 10px 10px 32px rgba(0, 0, 0, 1), rgba(0, 0, 0, 1);
   position: relative;
+  /* width: 365px; */
 }
 main::before {
   content: " ";
@@ -49,7 +50,17 @@ main::after {
   left: -40px;
   z-index: -2;
 }
+.img-section {
+  background: url(../images/image-equilibrium.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
 .img-container {
+  background: rgba(0, 255, 247, 0.6);
   height: 16rem;
   text-align: center;
 }
@@ -63,9 +74,6 @@ main::after {
   position: absolute;
 }
 .img-container img {
-  height: 100%;
-  border-radius: 0.6rem;
-  cursor: pointer;
 }
 .Equilibrium {
   width: 16rem;
@@ -98,6 +106,8 @@ p {
   font-weight: 600;
 }
 .eth-img {
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -117,11 +127,9 @@ p {
   border-radius: 50%;
 }
 span {
+  color: hsl(178, 100%, 50%);
   cursor: pointer;
   font-weight: 400;
-}
-span:hover {
-  color: hsl(178, 100%, 50%);
 }
 
 .attribution {

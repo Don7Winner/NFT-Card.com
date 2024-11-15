@@ -2,8 +2,8 @@
   .img-container::after {
     content: "";
   }
-  .img-container img {
-    background-image: linear-gradient(hsl(178, 100%, 50%), hsl(178, 100%, 50%));
+  .img-container {
+    background: none;
   }
   h1 {
     color: hsl(0, 0%, 100%);
@@ -13,17 +13,55 @@
   }
 }
 @media (max-width: 720px) {
+  main {
+    width: 360px;
+  }
   main::before {
     content: none;
   }
   main::after {
     content: none;
   }
+  .Equilibrium {
+    width: 360px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .Equilibrium-description {
+    font-size: 1.4rem;
+  }
+  .Etherem-text {
+    font-size: 1rem;
+  }
+  .eth-img {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 500px) {
+  main {
+    width: 300px;
+  }
+  .Equilibrium {
+    width: 300px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .Equilibrium-description {
+    font-size: 1rem;
+  }
+  .Etherem-text {
+    font-size: 0.8rem;
+  }
   .eth-img {
     font-size: 1rem;
   }
 }
 @media (max-width: 380px) {
+  main {
+    width: 256px;
+  }
   .img-container {
     height: 14rem;
   }
@@ -31,12 +69,13 @@
     width: 14rem;
   }
   h1 {
-    text-align: center;
+    /* text-align: center; */
   }
   .Equilibrium-description {
-    text-align: center;
+    /* text-align: center; */
   }
   .eth-img {
-    text-align: center;
+    /* text-align: center; */
+    font-size: 0.9rem;
   }
 }
