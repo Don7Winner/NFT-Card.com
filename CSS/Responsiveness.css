@@ -19,8 +19,8 @@
   main::after {
     content: none;
   }
-  main {
-    margin-bottom: 20px;
+  .eth-img {
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 380px) {
