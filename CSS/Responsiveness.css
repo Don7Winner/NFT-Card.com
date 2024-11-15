@@ -1,0 +1,43 @@
+@media (max-width: 1440px) {
+  .img-container::after {
+    content: "";
+  }
+  .img-container img {
+    background-image: linear-gradient(hsl(178, 100%, 50%), hsl(178, 100%, 50%));
+  }
+  h1 {
+    color: hsl(0, 0%, 100%);
+  }
+  span {
+    color: hsl(0, 0%, 100%);
+  }
+}
+@media (max-width: 720px) {
+  main::before {
+    content: none;
+  }
+  main::after {
+    content: none;
+  }
+  main {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .img-container {
+    height: 14rem;
+  }
+  .Equilibrium {
+    width: 14rem;
+    /* text-align: center; */
+  }
+  h1 {
+    text-align: center;
+  }
+  .Equilibrium-description {
+    text-align: center;
+  }
+  .eth-img {
+    text-align: center;
+  }
+}
