@@ -20,7 +20,18 @@
     content: none;
   }
   main::after {
-    content: none;
+    content: " ";
+    background-color: rgba(20, 37, 62, 0.2);
+    border-radius: 1.2rem;
+
+    display: inline-block;
+    height: 580px;
+    width: 385px;
+
+    position: absolute;
+    top: -15px;
+    left: -40px;
+    z-index: -2;
   }
   .Equilibrium {
     width: 360px;
